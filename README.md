@@ -13,3 +13,6 @@
 ### Deploy to Heroku ###
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+- set "Callback URL" to `https://<your application name>.herokuapp.com:443/callback`
+- open `heroku addons:open fixie` and get your static IP addresses from the ""Account", add them to "Server IP Whilelist"
