@@ -1,0 +1,23 @@
+{
+    "name": "line-zenra-bot",
+    "description": "zenra-bot for LINE",
+    "keywords": ["zenra"],
+    "repository": "https://github.com/sugyan/line-zenra-bot",
+    "env": {
+        "LINE_CHANNEL_ID": {
+            "description": "Channel ID of your bot",
+            "required": true
+        },
+        "LINE_CHANNEL_SECRET": {
+            "description": "Channel Secret of your bot",
+            "required": true
+        },
+        "LINE_MID": {
+            "description": "MID of your bot",
+            "required": true
+        }
+    },
+    "addons": [
+        "fixie"
+    ]
+}

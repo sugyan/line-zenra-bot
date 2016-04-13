@@ -1,0 +1,44 @@
+{
+	"ImportPath": "github.com/sugyan/line-zenra-bot",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/ikawaha/kagome/internal/da",
+			"Comment": "v1.5.1",
+			"Rev": "08326edff2b61a0259789df2f063853402a7992e"
+		},
+		{
+			"ImportPath": "github.com/ikawaha/kagome/internal/dic",
+			"Comment": "v1.5.1",
+			"Rev": "08326edff2b61a0259789df2f063853402a7992e"
+		},
+		{
+			"ImportPath": "github.com/ikawaha/kagome/internal/dic/data",
+			"Comment": "v1.5.1",
+			"Rev": "08326edff2b61a0259789df2f063853402a7992e"
+		},
+		{
+			"ImportPath": "github.com/ikawaha/kagome/internal/lattice",
+			"Comment": "v1.5.1",
+			"Rev": "08326edff2b61a0259789df2f063853402a7992e"
+		},
+		{
+			"ImportPath": "github.com/ikawaha/kagome/tokenizer",
+			"Comment": "v1.5.1",
+			"Rev": "08326edff2b61a0259789df2f063853402a7992e"
+		},
+		{
+			"ImportPath": "github.com/sugyan/go-zenra",
+			"Comment": "v0.0.1-7-g7c719d8",
+			"Rev": "7c719d84977992150ce91aa184338f8b66bd950c"
+		},
+		{
+			"ImportPath": "github.com/sugyan/line-bot/line",
+			"Rev": "95dd02f025c4b551f29f0bd6c886e3a3413541db"
+		}
+	]
+}
