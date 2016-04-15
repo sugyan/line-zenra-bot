@@ -77,7 +77,8 @@ func (bot *Bot) SendText(to string, message string) ([]byte, error) {
 }
 
 func (bot *Bot) checkSignature(signature string, body []byte) bool {
+	decoded, _ := base64.StdEncoding.DecodeString(signature)
 	hash := hmac.New(sha256.New, []byte(bot.ChannelSecret))
 	hash.Write(body)
-	return signature == base64.StdEncoding.EncodeToString(hash.Sum(nil))
+	return hmac.Equal(hash.Sum(nil), decoded)
 }
