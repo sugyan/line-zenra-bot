@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/sugyan/go-zenra"
-	"github.com/sugyan/line-bot/line"
+	"github.com/sugyan/line-bot"
 	"log"
 	"net/http"
 	"os"

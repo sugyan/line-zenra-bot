@@ -37,8 +37,8 @@
 			"Rev": "7c719d84977992150ce91aa184338f8b66bd950c"
 		},
 		{
-			"ImportPath": "github.com/sugyan/line-bot/line",
-			"Rev": "95dd02f025c4b551f29f0bd6c886e3a3413541db"
+			"ImportPath": "github.com/sugyan/line-bot",
+			"Rev": "3a2335e803b16e563c812f65dc4973c95ca8c9df"
 		}
 	]
 }
